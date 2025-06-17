@@ -49,7 +49,7 @@ export class MockProvider2 extends BaseEmailProvider {
     return new Promise((resolve) => {
       // Simulate higher but more consistent latency
       const baseLatency = this.latency;
-      const randomLatency = Math.random() * 20; // Add up to 20ms of random latency
+      const randomLatency = Math.random() * 20; // Add up to 20mss of random latency
       const spikeChance = Math.random() < 0.1; // 10% chance of a latency spike
       const spikeLatency = spikeChance ? 500 : 0; // 500ms spike if triggered
       
