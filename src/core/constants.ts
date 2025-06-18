@@ -32,7 +32,7 @@ export const ERROR_CODES = {
       PROCESSING_INTERVAL: 100, // 100ms
     },
     PROVIDER: {
-      HEALTH_CHECK_INTERVAL: 5000, // 5 seconds
+      HEALTH_CHECK_INTERVAL: 5000, // 5 sec
       TIMEOUT: 5000, // 5 seconds
     },
   } as const;
