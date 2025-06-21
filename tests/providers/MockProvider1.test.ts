@@ -33,7 +33,7 @@ describe('MockProvider1', () => {
     });
 
     it('should fail to send an email based on failure rate', async () => {
-      // Mock Math.random to always return a value below failure rate
+      // Mock Math.random to always return 
       jest.spyOn(Math, 'random').mockReturnValue(0.1);
 
       await expect(provider.send(testMessage)).rejects.toThrow();
