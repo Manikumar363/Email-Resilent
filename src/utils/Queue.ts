@@ -60,7 +60,7 @@ export class Queue {
       }
     }
 
-    // Remove the processed item
+    
     this.queue.shift();
 
     // Process next item
