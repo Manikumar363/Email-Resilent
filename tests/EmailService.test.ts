@@ -125,7 +125,6 @@ describe('EmailService', () => {
       const promise = emailService.sendEmail(
         testMessage.to,
         testMessage.from,
-        testMessage.subject,
         testMessage.body
       );
       
