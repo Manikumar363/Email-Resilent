@@ -57,7 +57,7 @@ describe('MockProvider1', () => {
 
   describe('isAvailable', () => {
     it('should return true when health check passes', async () => {
-      jest.spyOn(Math, 'random').mockReturnValue(0.2); // Above 0.1 failure rate
+      jest.spyOn(Math, 'random').mockReturnValue(0.2); 
 
       const isAvailable = await provider.isAvailable();
       expect(isAvailable).toBe(true);
