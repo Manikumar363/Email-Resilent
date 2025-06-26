@@ -13,7 +13,7 @@ describe('MockProvider1', () => {
   };
 
   beforeEach(() => {
-    provider = new MockProvider1(0.2, 100); // 20% failure rate, 100ms latency
+    provider = new MockProvider1(0.2, 100); 
   });
 
   describe('send', () => {
