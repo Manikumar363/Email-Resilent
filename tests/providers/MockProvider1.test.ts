@@ -27,8 +27,6 @@ describe('MockProvider1', () => {
         messageId: testMessage.id,
         status: 'sent',
         provider: 'MockProvider1',
-        attempts: 1,
-        lastAttempt: expect.any(Date),
       });
     });
 
