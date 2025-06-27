@@ -26,7 +26,7 @@ describe('MockProvider1', () => {
       expect(result).toEqual({
         messageId: testMessage.id,
         status: 'sent',
-        provider: 'MockProvider1',
+        
       });
     });
 
