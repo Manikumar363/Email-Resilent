@@ -8,7 +8,7 @@ export class MockProvider1 extends BaseEmailProvider {
 
   constructor(failureRate = 0.2, latency = 100) {
     super('MockProvider1');
-    this.failureRate = failureRate;
+
     this.latency = latency;
   }
 
