@@ -3,9 +3,7 @@ import {
   EmailMessage,
   EmailStatus,
   EmailProvider,
-  EmailServiceConfig,
-  EmailError,
-  RetryConfig,
+
 } from './types';
 import {
   ERROR_CODES,
