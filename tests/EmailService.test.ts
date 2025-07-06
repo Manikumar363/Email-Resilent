@@ -4,7 +4,7 @@ import { MockProvider2 } from '../src/providers/MockProvider2';
 import { EmailMessage, EmailError, EmailStatus } from '../src/core/types';
 import { ERROR_CODES, EMAIL_STATUS, CIRCUIT_STATE } from '../src/core/constants';
 import { METRICS } from '../src/core/constants';
-import { v4 as uuidv4 } from 'uuid';
+
 
 // Mock the providers
 jest.mock('../src/providers/MockProvider1', () => {
