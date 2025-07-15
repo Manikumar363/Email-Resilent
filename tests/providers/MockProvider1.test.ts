@@ -9,7 +9,6 @@ describe('MockProvider1', () => {
     to: 'test@example.com',
     from: 'sender@example.com',
     subject: 'Test Subject',
-    body: 'Test Body',
   };
 
   beforeEach(() => {
