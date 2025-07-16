@@ -6,8 +6,7 @@ describe('MockProvider2', () => {
   let provider: MockProvider2;
   const testMessage: EmailMessage = {
     id: 'test-2',
-    to: 'test@example.com',
-    from: 'sender@example.com',
+
     subject: 'Test Subject',
     body: 'Test Body',
   };
