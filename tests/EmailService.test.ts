@@ -57,7 +57,7 @@ describe('EmailService', () => {
 
   afterEach(async () => {
     jest.useRealTimers();
-    jest.clearAllMocks();
+  
     if (emailService) {
       emailService.clearSentMessageIds();
       emailService.clearQueue();
