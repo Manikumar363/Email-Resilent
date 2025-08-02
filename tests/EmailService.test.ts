@@ -10,7 +10,7 @@ import { METRICS } from '../src/core/constants';
 jest.mock('../src/providers/MockProvider1', () => {
   return {
     MockProvider1: jest.fn().mockImplementation(() => ({
-      name: 'MockProvider1',
+    
 
       isAvailable: jest.fn().mockResolvedValue(true),
     })),
