@@ -17,7 +17,7 @@ jest.mock('../src/providers/MockProvider1', () => {
   };
 });
 
-jest.mock('../src/providers/MockProvider2', () => {
+jest.mock('../src//MockProvider2', () => {
   return {
     MockProvider2: jest.fn().mockImplementation(() => ({
       name: 'MockProvider2',
