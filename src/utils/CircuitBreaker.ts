@@ -23,7 +23,7 @@ export class CircuitBreaker {
       if (this.lastFailureTime && now - this.lastFailureTime >= this.resetTimeout) {
         this.state = CIRCUIT_STATE.HALF_OPEN;
       } else {
-        throw new Error('CIRCUIT_OPEN');
+        throw new Error('CIRCUIT');
       }
     }
 
