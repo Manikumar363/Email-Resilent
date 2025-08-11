@@ -6,7 +6,6 @@ import {
 
 } from './types';
 import {
-  ERROR_CODES,
   DEFAULT_CONFIG,
   EMAIL_STATUS,
   CIRCUIT_STATE,
