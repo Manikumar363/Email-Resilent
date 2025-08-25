@@ -11,7 +11,6 @@ type QueueItem = {
 export class Queue {
   private queue: QueueItem[] = [];
   private processing = false;
-  private readonly maxAttempts: number;
   private readonly getCurrentTime: () => number;
 
   constructor(maxAttempts: number, getCurrentTime: () => number = Date.now) {
