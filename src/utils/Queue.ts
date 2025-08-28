@@ -39,7 +39,7 @@ export class Queue {
 
   private async process(): Promise<void> {
     if (this.queue.length === 0) {
-      this.processing = false;
+
       return;
     }
 
