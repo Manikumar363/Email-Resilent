@@ -8,7 +8,7 @@ import { METRICS } from '../src/core/constants';
 
 // Mock the providers
 jest.mock('../src/providers/MockProvider1', () => {
-  return {
+
     MockProvider1: jest.fn().mockImplementation(() => ({
     
 
