@@ -5,7 +5,6 @@ export class CircuitBreaker {
   private failureCount = 0;
   private lastFailureTime: number | null = null;
   private readonly failureThreshold: number;
-  private readonly resetTimeout: number;
   private readonly getCurrentTime: () => number;
 
   constructor(
